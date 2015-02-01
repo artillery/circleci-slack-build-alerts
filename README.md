@@ -33,9 +33,5 @@ This application notifies a specific Slack channel when a specific Git branch fa
 
 Set up a notify webhook to the Heroku URL as described [here](https://circleci.com/docs/configuration#notify).
 
-### Credits
-
-* Favicon from [Octicons by GitHub](https://www.iconfinder.com/icons/298789/git_pull_request_icon#size=128)
-
 --------------------------------------------------------------------
 Copyright 2015 Artillery Games, Inc. Licensed under the MIT license.
