@@ -1,0 +1,29 @@
+{
+  "name": "circleci-slack-build-alerts",
+  "version": "0.0.1",
+  "author": "Ian Langworth <ian@artillery.com>",
+  "description": "CircleCI build alerts in Slack for only one branch",
+  "contributors": [],
+  "bin": {
+    "app": "./app.coffee"
+  },
+  "scripts": {
+    "start": "coffee app",
+    "dev": "nodemon ./app.coffee"
+  },
+  "main": "./app.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artillery/circleci-slack-build-alerts.git"
+  },
+  "private": true,
+  "dependencies": {
+    "coffee-script": "1.8.x",
+    "express": "3.x",
+    "request": "^2.51.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
