@@ -2,6 +2,10 @@
 
 This application notifies a specific Slack channel when a specific Git branch fails to test on CircleCI.
 
+![](http://i.imgur.com/TVVFOhS.gif)
+
+![](http://i.imgur.com/c4YZSV5.png)
+
 **But can't you do this with a Slack integration already?** Currently, the CircleCI integration will show fixed/failed messages for _all_ branches, which is much too verbose for a large team. Also, we want to make sure that a broken-master alert gets everyone's attention.
 
 ## Getting started
