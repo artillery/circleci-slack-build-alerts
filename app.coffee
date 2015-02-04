@@ -61,10 +61,10 @@ app.post '/', (req, res) ->
     username: 'CircleCI build status'
   if status == 'failed'
     payload.icon_emoji = ':red_circle:'
-    payload.text = "#{ branch } build failed! (<#{ build_url }|details>) http://i.imgur.com/TVVFOhS.gif"
+    payload.text = "@channel #{ branch } build failed! (<#{ build_url }|details>) http://i.imgur.com/TVVFOhS.gif"
   else if status == 'fixed'
     payload.icon_emoji = ':white_check_mark:'
-    payload.text = "#{ branch } build fixed. (<#{ build_url }|details>) http://i.imgur.com/c4YZSV5.png"
+    payload.text = "@channel #{ branch } build fixed. (<#{ build_url }|details>) http://i.imgur.com/c4YZSV5.png"
   else
     return res.send 200, 'Ignored (only want fixed/failed status)'
 
